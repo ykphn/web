@@ -14,12 +14,12 @@
         };
     </script>
 </head>
-<body class="h-screen overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+<body class="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white">
     <!-- Header -->
     <header class="fixed w-full top-0 bg-gray-900/60 backdrop-blur-md z-50 border-b border-gray-700/30">
-        <nav class="container mx-auto px-6 py-5">
+        <nav class="container mx-auto px-4 sm:px-6 py-3 sm:py-5">
             <div class="flex items-center justify-between">
-                <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+                <h1 class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
                     İME Excel
                 </h1>
                 <div>
@@ -33,65 +33,65 @@
     </header>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-6 pt-20 pb-12 h-[calc(100vh-30px)] overflow-y-auto lg:overflow-hidden">
-        <div class="h-full flex flex-col lg:flex-row items-center gap-6">
+    <main class="container mx-auto px-4 sm:px-6 pt-24 pb-16 min-h-screen">
+        <div class="flex flex-col lg:flex-row items-center gap-6">
             <!-- Sol Panel -->
             <div class="w-full lg:w-1/2 space-y-4 py-4">
                 <div class="space-y-4">
-                    <h2 class="text-4xl font-bold leading-tight">
+                    <h2 class="text-3xl sm:text-4xl font-bold leading-tight">
                         Öğretmenler İçin<br/>
                         <span class="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
                             Excel Otomasyon Çözümü
                         </span>
                     </h2>
-                    <p class="text-lg text-gray-300 leading-relaxed">
+                    <p class="text-base sm:text-lg text-gray-300 leading-relaxed">
                         Programımız öğretmenlerin elle yapması gereken işlemleri otomatikleştirerek büyük ölçüde zaman kazandırır. 
                         Uygulama, önce öğretmenleri ve çalıştıkları firmaları ayırır, ardından bu firmalardaki öğrencileri 
                         listeleyerek gerekli raporları oluşturur.
                     </p>
-                    <div class="space-y-4 text-gray-300">
+                    <div class="space-y-3 text-gray-300">
                         <div class="flex items-center gap-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 text-blue-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                             </svg>
-                            <span>Öğrenci sayısı formları otomatik oluşturma</span>
+                            <span class="text-sm sm:text-base">Öğrenci sayısı formları otomatik oluşturma</span>
                         </div>
                         <div class="flex items-center gap-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 text-blue-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                             </svg>
-                            <span>Günlük, haftalık ve aylık görev formları</span>
+                            <span class="text-sm sm:text-base">Günlük, haftalık ve aylık görev formları</span>
                         </div>
                         <div class="flex items-center gap-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 text-blue-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                             </svg>
-                            <span>Hatasız ve baskıya hazır Excel çıktıları</span>
+                            <span class="text-sm sm:text-base">Hatasız ve baskıya hazır Excel çıktıları</span>
                         </div>
                     </div>
                 </div>
                 
-                <div class="flex gap-4">
+                <div class="flex flex-wrap gap-4 mt-6">
                     <a href="#" onclick="window.location.href=CONFIG.downloadLink" 
-                       class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center gap-2">
+                       class="bg-blue-600 hover:bg-blue-700 px-4 sm:px-6 py-2 sm:py-3 rounded-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center gap-2 text-sm sm:text-base">
                         <span>Hemen İndir</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                         </svg>
                     </a>
                     <a href="#nasil-kullanilir" 
-                       class="border border-blue-600 hover:bg-blue-600/20 px-6 py-3 rounded-lg transition-all duration-300">
+                       class="border border-blue-600 hover:bg-blue-600/20 px-4 sm:px-6 py-2 sm:py-3 rounded-lg transition-all duration-300 text-sm sm:text-base">
                         Nasıl Kullanılır?
                     </a>
                 </div>
             </div>
 
             <!-- Sağ Panel -->
-            <div class="w-full lg:w-1/2 h-full flex items-center justify-center">
-                <div class="relative w-[300px] m-6 transform perspective-1000 rotate-y-3 rotate-x-3 hover:rotate-y-0 hover:rotate-x-0 transition-transform duration-500">
+            <div class="w-full lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0">
+                <div class="relative w-4/5 sm:w-3/5 transform perspective-1000 rotate-y-3 rotate-x-3 hover:rotate-y-0 hover:rotate-x-0 transition-transform duration-500">
                     <div class="absolute -inset-3 bg-gradient-to-r from-blue-600 to-blue-400 rounded-2xl blur opacity-30"></div>
                     <div class="relative bg-gray-900 rounded-xl overflow-hidden shadow-2xl">
-                        <div class="aspect-[49/75] p-1">
+                        <div class="aspect-[9/14] p-1">
                             <img src="app.png" alt="IME Excel Uygulama Görüntüsü" 
                                  class="w-full h-full object-contain">
                         </div>
@@ -107,7 +107,7 @@
 
     <!-- Footer -->
     <footer class="fixed bottom-0 left-0 right-0 bg-gray-900/60 backdrop-blur-md border-t border-gray-700/30 z-50">
-        <div class="container mx-auto px-6 py-2">
+        <div class="container mx-auto px-4 sm:px-6 py-2">
             <p class="text-center text-gray-400 text-sm">&copy; 2024 İME Excel. Tüm hakları saklıdır.</p>
         </div>
     </footer>
